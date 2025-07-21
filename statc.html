@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>📊 Prompt Stats</title>
+  <style>
+    body {
+      background-color: #0f0f0f;
+      color: white;
+      font-family: 'Segoe UI', sans-serif;
+      text-align: center;
+      padding: 20px;
+    }
+
+    h1 {
+      color: #00ffff;
+      font-size: 2.5rem;
+    }
+
+    .card {
+      background: #1a1a1a;
+      border-radius: 12px;
+      padding: 20px;
+      margin: 20px auto;
+      max-width: 500px;
+      box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+    }
+
+    .card h2 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+
+    .back-btn {
+      margin-top: 25px;
+      padding: 10px 20px;
+      font-size: 1rem;
+      background-color: #00ffff;
+      color: #000;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>📊 Prompt Usage Stats</h1>
+
+  <div class="card">
+    <h2>🔥 Top Copied Prompt</h2>
+    <p>"Act as a financial advisor. Create a budget and investment plan for a 22-year-old freelancer..."</p>
+  </div>
+
+  <div class="card">
+    <h2>📈 Most Popular Category</h2>
+    <p>Business 💼</p>
+  </div>
+
+  <div class="card">
+    <h2>⏱️ Copied Today</h2>
+    <p>34 times</p>
+  </div>
+
+  <button class="back-btn" onclick="goBack()">← Return to Marketplace</button>
+
+  <script>
+    function goBack() {
+      window.location.href = "index.html";
+    }
+  </script>
+</body>
+</html>
